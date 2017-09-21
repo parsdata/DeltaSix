@@ -6,13 +6,34 @@
     android:layout_height="match_parent"
     tools:context="com.example.deltasix.MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:ems="10"
+        android:hint="شماره موبایل"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="162dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:text="ثبت نام"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:fontFamily="casual"
+        android:text="برای ثبت نام شماره موبایل خود را وارد نمایید."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="68dp" />
 </android.support.constraint.ConstraintLayout>
