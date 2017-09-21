@@ -7,15 +7,15 @@
     tools:context="com.example.deltasix.Login">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="250dp"
         android:layout_height="41dp"
         android:text="ورود"
         tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="221dp" />
+        tools:layout_editor_absoluteY="181dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtMobileNumber"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:ems="10"
@@ -23,5 +23,5 @@
         android:inputType="number"
         android:maxLength="13"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="69dp" />
+        tools:layout_editor_absoluteY="52dp" />
 </android.support.constraint.ConstraintLayout>
