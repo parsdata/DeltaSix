@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deltasix.Login">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:text="ورود"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="شماره موبایل"
+        android:inputType="number"
+        android:maxLength="13"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="69dp" />
+</android.support.constraint.ConstraintLayout>
